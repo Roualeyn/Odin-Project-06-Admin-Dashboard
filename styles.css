@@ -40,6 +40,29 @@ main>div>div {
     border-radius: 1rem;
 }
 
+/* Announcement Section */
+
+.announcements>div {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    line-height: 0.9rem;
+}
+
+.announcements>div div {
+    border-bottom: 1px solid var(--shadow-colour);
+    margin-bottom: 1rem;
+}
+
+.announcements>div div:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.announcements>div * {
+    margin: 0;
+}
+
 /* Sidebar CSS */
 
 .sidebar {

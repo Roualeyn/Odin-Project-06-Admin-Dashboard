@@ -23,6 +23,21 @@ img {
 
 main {
     background-color: var(--medium-colour);
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 1rem;
+}
+
+.projects {
+    grid-row: 1 / 3;
+}
+
+main>div>div {
+    background-color: var(--lightest-colour);
+    padding: 2rem;
+    box-shadow: 6px 6px 6px hsl(120, 30%, 80%);
+    border-radius: 1rem;
 }
 
 /* Sidebar CSS */

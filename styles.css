@@ -187,6 +187,7 @@ header {
 
 header svg {
     height: 1rem;
+    fill: var(--darkest-colour);
 }
 
 header svg:hover {

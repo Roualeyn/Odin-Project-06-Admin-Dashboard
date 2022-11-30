@@ -1,5 +1,5 @@
 # This is a project that forms part of the Odin Project Web Development Course.
-This is a work in progress.
+This is an example page for a service that does not exist. All users and content are fictitious.
 
 ## Resources
 

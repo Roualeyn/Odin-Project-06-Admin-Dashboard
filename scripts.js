@@ -1,11 +1,6 @@
-function menuAppear() {
-    this.firstElementChild.style.visibility = "visible";
+function addDropDownMenu(element) {
+    element.addEventListener("pointerenter", () => {element.firstElementChild.style.visibility = "visible";});
+    element.addEventListener("pointerleave", () => {element.firstElementChild.style.visibility = "hidden";});
 }
 
-function menuVanish() {
-    this.firstElementChild.style.visibility = "hidden";
-}
-
-let newButton = document.getElementById("newButton");
-newButton.addEventListener("pointerenter", menuAppear);
-newButton.addEventListener("pointerleave", menuVanish);
+addDropDownMenu(document.getElementById("newButton"));

@@ -9,6 +9,7 @@
     <link rel="icon" type="image/x-icon" href="./graphics/dashboard.svg">
     <!-- Include Web Font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anek+Devanagari">
+    <script src="./scripts.js" defer></script>
 </head>
 <body>
     <header>
@@ -27,7 +28,13 @@
             <p class="username">Felicity Simons (@felsim)</p>
         </div>
         <div class="header-buttons">
-            <button>New</button>
+            <button id="newButton">New
+                <div class="drop-down-menu">
+                    <div class="drop-down-item">Task</div>
+                    <div class="drop-down-item">Project</div>
+                    <div class="drop-down-item">Message</div>
+                </div>
+            </button>
             <button>Upload</button>
             <button>Share</button>
         </div>
